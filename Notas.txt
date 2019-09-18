@@ -1,0 +1,20 @@
+Swagger:
+https://www.treinaweb.com.br/blog/documentando-uma-asp-net-core-web-api-com-o-swagger/
+https://medium.com/@renato.groffe/asp-net-core-swagger-documentando-apis-com-o-package-swashbuckle-aspnetcore-5eef480ba1c0
+
+Login JWT:
+https://medium.com/@geekrodion/blog-with-asp-net-core-and-react-redux-part-1-authentication-94b11b1a1bc4
+
+------------------------------
+Escopo:
+1 - Seguir JWT do tutorial
+2 - Expor apis funcionais
+3 - Utilizar Swagger
+
+Apis:
+/auth/login (email, senha)
+/auth/register (all user)
+
+
+
+get, insert, update, delete

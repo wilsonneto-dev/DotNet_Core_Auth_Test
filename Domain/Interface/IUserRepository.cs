@@ -5,12 +5,13 @@ using System.Text;
 
 namespace Domain.Interface
 {
-    interface IUserRepository
+    public interface IUserRepository
     {
-        Boolean EmailExists(String email);
+        public User Insert(User user);
+
+        public User GetByEmail(String email);
         
-        User Login(String email, String hashPassword);
+        public User Login(String email, String hashPassword);
         
-        User Insert(User user);
     }
 }

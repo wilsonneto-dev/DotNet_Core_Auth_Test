@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Domain", "4 Domain", "{DCF379AE-74F2-485D-A87F-BB45342BF326}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Domain", "2 Domain", "{DCF379AE-74F2-485D-A87F-BB45342BF326}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Infra", "5 Infra", "{ACD0B407-0CEA-49DD-8DAB-DA7542517ECD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Infra", "3 Infra", "{ACD0B407-0CEA-49DD-8DAB-DA7542517ECD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 Crosscutting", "5.1 Crosscutting", "{9813D466-ECC1-49E4-B8F7-DF8087AE289F}"
 EndProject
@@ -19,9 +19,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataDapper", "DataDapper\DataDapper.csproj", "{50AFE583-85CF-4A95-9406-49233D8B4F4F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Services API", "2 Services API", "{78C32B76-2996-42C5-A3A6-F87D81D2C3E5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 API - Services", "1 API - Services", "{78C32B76-2996-42C5-A3A6-F87D81D2C3E5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{BCFC5A91-3ADC-40A1-99DB-663E7ABD9A2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notas", "notas", "{F00E18BC-C07E-43C8-925E-39A4F4550D60}"
+	ProjectSection(SolutionItems) = preProject
+		Notas.txt = Notas.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crosscutting", "Crosscutting\Crosscutting.csproj", "{8F38A1C0-A15B-4B76-97EC-BE7CB8E851FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +48,10 @@ Global
 		{BCFC5A91-3ADC-40A1-99DB-663E7ABD9A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFC5A91-3ADC-40A1-99DB-663E7ABD9A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCFC5A91-3ADC-40A1-99DB-663E7ABD9A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F38A1C0-A15B-4B76-97EC-BE7CB8E851FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F38A1C0-A15B-4B76-97EC-BE7CB8E851FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F38A1C0-A15B-4B76-97EC-BE7CB8E851FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F38A1C0-A15B-4B76-97EC-BE7CB8E851FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +64,7 @@ Global
 		{19DABC88-73AB-430C-A957-86F21B99A229} = {DCF379AE-74F2-485D-A87F-BB45342BF326}
 		{50AFE583-85CF-4A95-9406-49233D8B4F4F} = {02E6BE1D-87C4-474D-867C-650A17AD12DC}
 		{BCFC5A91-3ADC-40A1-99DB-663E7ABD9A2C} = {78C32B76-2996-42C5-A3A6-F87D81D2C3E5}
+		{8F38A1C0-A15B-4B76-97EC-BE7CB8E851FB} = {9813D466-ECC1-49E4-B8F7-DF8087AE289F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA627661-C06D-491D-BE0E-C3B04C13B57B}
